@@ -1,8 +1,7 @@
 body {
-    /* background-color: #6bb76b; */
-    background: linear-gradient(to bottom, #effded, #6bb76b);
+    background-color: #d1f5ee;
     font-family: 'Quicksand', sans-serif;
-    max-width: 800px;
+    max-width: 550px;
     margin: 0 auto;
     padding: 10px;
 }
@@ -49,7 +48,7 @@ button,input {
     border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
-    box-shadow: 0 4px 8px #6bb76b    ;
+    box-shadow: 0 4px 8px #9abdb6   ;
 
 }
 
