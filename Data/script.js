@@ -1,10 +1,10 @@
 var gratefulNotes = [];
 var typed_content ='';
 
-gratefulNotes[0] = { date: new Date().toLocaleDateString(), note: "Listening to my favorite song" }
-gratefulNotes[1] = { date: new Date().toLocaleDateString(), note: "The quiet morning to enjoy a cup of coffee" }
-gratefulNotes[2] = { date: new Date().toLocaleDateString(), note: "My dog greeting me every time I come home" }
-gratefulNotes[3] = { date: new Date().toLocaleDateString(), note: "A peaceful walk outside to clear my mind" }
+// gratefulNotes[0] = { date: new Date().toLocaleDateString(), note: "Listening to my favorite song" }
+// gratefulNotes[1] = { date: new Date().toLocaleDateString(), note: "The quiet morning to enjoy a cup of coffee" }
+// gratefulNotes[2] = { date: new Date().toLocaleDateString(), note: "My dog greeting me every time I come home" }
+// gratefulNotes[3] = { date: new Date().toLocaleDateString(), note: "A peaceful walk outside to clear my mind" }
 // gratefulNotes[4] = { date: new Date().toLocaleDateString(), note: "Finishing a tough project" }
 // gratefulNotes[5] = { date: new Date().toLocaleDateString(), note: "A beautiful sunset" }
 
@@ -47,8 +47,7 @@ function nnFn(e){
     savedArray.push( new_note_card);
     localStorage.setItem('gratefulNotesSaved',JSON.stringify(savedArray)) ; //save to local storage
     updateUI(new_note_card);
-    e.target.value=''; //empties the input field 
-    // todo empty when clicked on '+' button
+    document.getElementById('note-content').value=""; //empties the input field 
 }
 
 
