@@ -14,8 +14,10 @@ const nc = document.getElementById('notes-container');
 gratefulNotes.forEach(updateUI);
 
 function updateUI(element){
-    nc.innerHTML += `
-    <div class="card"> ${element.note} <br></div>
+    nc.innerHTML += `<div class="note-card">
+            <p>${element.note}</p>
+        <small class="date">${element.date}</small>
+    </div>
    `;
 
 }

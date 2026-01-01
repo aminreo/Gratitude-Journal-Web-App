@@ -1,24 +1,59 @@
-body{
-    background-color: #6bb76b;
+body {
+    /* background-color: #6bb76b; */
+    background: linear-gradient(to bottom, #effded, #6bb76b);
+    font-family: 'Quicksand', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
-p,h1{
+p,
+h1 {
     color: #3e4a3d;
     text-align: center;
-    margin: 15px;
+    /* margin: 15px; */
 }
 
-.card{
+h1{
+    font-family: 'Pacifico',cursive;
+    font-size:x-large;
+
+}
+
+.note-card {
     background-color: #f6edd9;
     color: #003500;
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    transition: transform 0.5s ease;
+    transition: transform 0.5s;
+    box-shadow: 0 4px 8px #a1afa0 ;
 }
 
-.card:hover{
+.note-card:hover {
     background-color: #effded;
-    scale: calc(1.02);
     cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.date{
+    color: #a1afa0;
+    font-family: 'Pacifico',cursive;
+    font-style: italic;
+    font-size: 10px;
+
+}
+button,input {
+    background: #dcf2ff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 8px #6bb76b    ;
+
+}
+
+button:hover {
+    background: #d3a350;
 }
