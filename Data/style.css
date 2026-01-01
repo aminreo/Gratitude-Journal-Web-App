@@ -1,0 +1,24 @@
+body{
+    background-color: #6bb76b;
+}
+
+p,h1{
+    color: #3e4a3d;
+    text-align: center;
+    margin: 15px;
+}
+
+.card{
+    background-color: #f6edd9;
+    color: #003500;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+}
+
+.card:hover{
+    background-color: #effded;
+    scale: calc(1.02);
+    cursor: pointer;
+}
